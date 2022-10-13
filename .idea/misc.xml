@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/drawable/arrow.xml" value="0.236" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/drawable/border.xml" value="0.236" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/drawable/btn_shape.xml" value="0.236" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/drawable/ic_add.xml" value="0.236" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/drawable/ic_diet.xml" value="0.236" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/drawable/ic_goals.xml" value="0.236" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/drawable/ic_guide.xml" value="0.236" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/drawable/ic_home_foreground.xml" value="0.236" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/drawable/ic_kitchen.xml" value="0.236" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/layout/calories.xml" value="0.1" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/layout/goal.xml" value="0.25" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/layout/guide.xml" value="0.25" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/layout/kalendarz.xml" value="0.25" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/layout/kitchen_book.xml" value="0.25" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/layout/plusik_do_dairy.xml" value="0.25" />
+        <entry key="..\:/inzynierka/DietTracker/app/src/main/res/layout/po_kliknieciu_w_kalendarz.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

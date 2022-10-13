@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6E6A6A">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="332dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="761dp"
+        android:text="Welcome to Diet Tracker"
+        android:textSize="30dp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="440dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0.4"
+                android:background="@drawable/btn_shape"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_diet"
+               />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Diet diary"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0.4"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_guide"
+                android:text="Button" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Guide"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="220dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/button3"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0.4"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_kitchen"
+                android:text="Button" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Kitchen book"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0.4"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_progress"
+                android:text="Button" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Progress"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="195dp"
+        android:layout_height="221dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/button5"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0.4"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_goals"
+                android:text="Button" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Goals"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

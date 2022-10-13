@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#6E6A6A">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D1CFCF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="35dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:scrollbarSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You BMI: 24,22"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="397dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/calendarView"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your weight: 70kg"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="436dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView2"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your daily caloric consumption: 1900"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="476dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView3"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Days until the ehnd of the diet: 4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="515dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView4"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:srcCompat="@drawable/COMPLETE_puppy_weight_chart_medium_breed_c_s"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="527dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView13"/>
+
+</RelativeLayout>
